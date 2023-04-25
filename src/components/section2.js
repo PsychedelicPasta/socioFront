@@ -37,7 +37,7 @@ const PingBackground = styled.div`
   position: relative;
 `;
 
-const Title = tw.h1`text-primary text-[75px] text-center font-bold mb-25`;
+const Title = tw.h1`text-primary xl:text-6xl lg:text-6xl text-[60px] font-bold text-center mb-30`;
 
 function Hero() {
   return (

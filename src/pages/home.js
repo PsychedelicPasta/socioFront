@@ -8,8 +8,8 @@ import Section3 from '../components/section3.js';
 
 import Footer from '../components/footer.js';
 
-const Container = tw.div `h-full bg-primary mx-auto `;
-const Content = tw.div `bg-secondary mx-75 rounded-2xl hover:shadow-2xl p-50`;
+const Container = tw.div `h-full bg-primary mx-auto pb-25 lg:max-w-full xl:max-w-full sm:max-w-sm md:max-w-sm`;
+const Content = tw.div `bg-secondary lg:mx-75 xl:mx-75 sm:mx-0 rounded-2xl hover:shadow-2xl p-50`;
 
 function Home() {
   return (
